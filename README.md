@@ -1,5 +1,9 @@
 # Introduction to `mrTools`
 
+<center>
+<img src="images/www-intro-thumbnail.png" width="70%" >
+</center>
+
 A work-through of a simple anatomical / fMRI data set with a view to programming your own analysis, scripting and some info about the `mrTools` internals.
 
 ## Pre-requisites, suggested reading
