@@ -1,0 +1,6 @@
+# ignore local folder with some files
+supportingMaterials/
+
+# matlab editor files
+**.*~
+*.DS_Store
