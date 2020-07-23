@@ -20,8 +20,8 @@ I (@schluppeck) made the videos and materials running with
 - ``Matlab R2016a`` (some known issues with later versions, e.g. `R2019a`, which are on radar)
 - `macOS` v10.15.6 Catalina
 
-- https://github.com/justingardner/mrTools
-- https://github.com/justingardner/mgl
+- https://github.com/justingardner/mrTools (at commit: `b4330ea2` - Sat, 1 Feb 2020)
+- https://github.com/justingardner/mgl (at commit: * `be40b58` - Tue, 9 Jun 2020)
 
 ## Any problems?
 
@@ -38,9 +38,10 @@ There is a `youtube` playlist for the videos in this series:
 |:-----|:--------------------------------------------------------------------|
 | 1    | [getting started / setup / data / mrInit](01-setup.md)              |
 | 2    | [a quick look at the `mrLoadRet` gui](02-first-look-at-gui.md)      |
-| 3    | [the data model / data structures](03-data-model.md)                |
+| 3    | [the data model / data structures (**intro**)](03-data-model.md)    |
 | 4    | [interacting witht the dataset](04-interacting-with-data.md)        |
 | 5    | [making custom plots (example)](05-custom-plots.md)                 |
+| 6    | [finding functions / documentation](06-documentation.md)            |
 |      | alignments with `mrAlign`  - moving between data / anatomical space |
 |      | making use of `freesurfer segmentations` / flat maps                |
 |      | ??                                                                  |
