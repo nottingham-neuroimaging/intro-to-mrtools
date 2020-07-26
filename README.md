@@ -21,9 +21,9 @@ Gardner, Justin L., Merriam, Elisha P., Schluppeck, Denis, Besle, Julien, & Heeg
 
 To make most of this material, it's a good idea to have worked through some of the tutorials hosted on Justin Gardner's (JLG) webpage:
 
-- **retinotopy / basics** - https://gru.stanford.edu/doku.php/mrtools/tutorialsretinotopy
-- **population receptive field analysis** - https://gru.stanford.edu/doku.php/mrtools/tutorialsprf
-- **GLM / linear regression** - https://gru.stanford.edu/doku.php/mrtools/tutorialsglm_v2
+- [**retinotopy / basics**](https://gru.stanford.edu/doku.php/mrtools/tutorialsretinotopy)
+- [**population receptive field analysis**](https://gru.stanford.edu/doku.php/mrtools/tutorialsprf)
+- [**GLM / linear regression**](https://gru.stanford.edu/doku.php/mrtools/tutorialsglm_v2)
 
 There is also quite detailed documentation on the code http://gru.stanford.edu/mrTools
 
