@@ -7,9 +7,13 @@ There is a worked walk-through of an analysis of anatomical / fMRI data with a v
 <center>
 <img src="images/www-intro-thumbnail.png" width="70%" >
 </center>
+<br>
+<br>
 
 >mrTools provides a set of Matlab tools to analyze fMRI data. It can do basic analyses like correlation analyses used in retinotopy experiments, event-related, population RF and GLM analyses. It can display the results of analyses on inplane anatomies, flat maps and surfaces. It is designed to make it easy to write your own script and programs in Matlab to analyze your data.
 >http://gru.stanford.edu/doku.php/mrtools/overview
+<br>
+<br>
 
 <code>
 Gardner, Justin L., Merriam, Elisha P., Schluppeck, Denis, Besle, Julien, & Heeger, David J. (2018, June 28). mrTools: Analysis and visualization package for functional magnetic resonance imaging data (Version 4.7). Zenodo. http://doi.org/10.5281/zenodo.1299483
