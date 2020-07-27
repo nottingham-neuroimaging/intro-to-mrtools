@@ -51,19 +51,19 @@ There is a `youtube` playlist for the videos in this series:
 [Youtube playlist **intro-to-mrtools**](https://www.youtube.com/playlist?list=PLCZfmSQp7dzLeEDlONvTSsnipNlcYITCT)
 
 
-| Week | Topic                                                               |
-|:-----|:--------------------------------------------------------------------|
-| 1    | [getting started / setup / data / mrInit](01-setup.md)              |
-| 2    | [a quick look at the `mrLoadRet` gui](02-first-look-at-gui.md)      |
-| 3    | [the data model / data structures (**intro**)](03-data-model.md)    |
-| 4    | [details about data `view`s](04-data-view.md)                       |
-| 5    | [interacting witht the dataset](04-interacting-with-data.md)        |
-|      | ...                                                                 |
-|      | [making custom plots (example)](xx-custom-plots.md)                 |
-|      | [finding functions / documentation](xx-documentation.md)            |
-|      | alignments with `mrAlign`  - moving between data / anatomical space |
-|      | making use of `freesurfer segmentations` / flat maps                |
-|      | ...                                                                 |
+| Week | Topic                                                                            |
+|:-----|:---------------------------------------------------------------------------------|
+| 1    | [getting started / setup / data / mrInit](01-setup.md)                           |
+| 2    | [a quick look at the `mrLoadRet` gui](02-first-look-at-gui.md)                   |
+| 3    | [the data model / data structures (**intro**)](03-data-model.md)                 |
+| 4    | [details about data `view`s](04-data-view.md)                                    |
+| 5    | interacting with the dataset + analyses (interrogator functions)                 |
+|      | ...                                                                              |
+|      | making custom plots (interrogater example)                                       |
+|      | finding functions / documentation  (`mrSearchHelp`, webpages, general best ways) |
+|      | alignments with `mrAlign`  - moving between data / anatomical space              |
+|      | making use of `freesurfer segmentations` / flat maps                             |
+|      | ...                                                                              |
 
 ## Data
 
