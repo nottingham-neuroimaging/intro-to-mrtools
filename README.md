@@ -12,6 +12,7 @@ There is a worked walk-through of an analysis of anatomical / fMRI data with a v
 
 >mrTools provides a set of Matlab tools to analyze fMRI data. It can do basic analyses like correlation analyses used in retinotopy experiments, event-related, population RF and GLM analyses. It can display the results of analyses on inplane anatomies, flat maps and surfaces. It is designed to make it easy to write your own script and programs in Matlab to analyze your data.
 >http://gru.stanford.edu/doku.php/mrtools/overview
+>https://www.cns.nyu.edu/heegerlab/wiki/doku.php?id=mrtools:top (mirror)
 <br>
 <br>
 
@@ -57,11 +58,12 @@ There is a `youtube` playlist for the videos in this series:
 | 2    | [a quick look at the `mrLoadRet` gui](02-first-look-at-gui.md)                   |
 | 3    | [the data model / data structures (**intro**)](03-data-model.md)                 |
 | 4    | [details about data `view`s](04-data-view.md)                                    |
-| 5    | interacting with the dataset + analyses (interrogator functions)                 |
+| 5    | [interacting with the dataset (interrogators)](05-interacting-with-data.md)      |
+| 6    | [first steps with scripting](06-first-scripting.md)                              |
+| 7    | [alignments / `mrAlign`  - moving between spaces](07-alignments.md)              |
 |      | ...                                                                              |
 |      | making custom plots (interrogater example)                                       |
 |      | finding functions / documentation  (`mrSearchHelp`, webpages, general best ways) |
-|      | alignments with `mrAlign`  - moving between data / anatomical space              |
 |      | making use of `freesurfer segmentations` / flat maps                             |
 |      | ...                                                                              |
 
