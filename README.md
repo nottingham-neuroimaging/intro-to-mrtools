@@ -26,13 +26,16 @@ Gardner, Justin L., Merriam, Elisha P., Schluppeck, Denis, Besle, Julien, & Heeg
 
 To make most of this material, it's a good idea to have worked through some of the tutorials hosted on Justin Gardner's (JLG) webpage:
 
-- [**retinotopy / basics**](https://gru.stanford.edu/doku.php/mrtools/tutorialsretinotopy)
-- [**population receptive field analysis**](https://gru.stanford.edu/doku.php/mrtools/tutorialsprf)
-- [**GLM / linear regression**](https://gru.stanford.edu/doku.php/mrtools/tutorialsglm_v2)
+- [**retinotopy / basics**](https://gru.stanford.edu/doku.php/mrtools/tutorialsretinotopy) / [**retinotopy / basics** (mirrored)](https://www.cns.nyu.edu/heegerlab/wiki/doku.php?id=mrtools:tutorialsretinotopy)
 
-There is also quite detailed documentation on the code http://gru.stanford.edu/mrTools
+- [**population receptive field analysis**](https://gru.stanford.edu/doku.php/mrtools/tutorialsprf) /[**population receptive field analysis** (mirrored)](https://www.cns.nyu.edu/heegerlab/wiki/doku.php?id=mrtools:tutorialsprf)
+- [**GLM / linear regression**](https://gru.stanford.edu/doku.php/mrtools/tutorialsglm_v2) / [**GLM / linear regression** (mirrored)](https://www.cns.nyu.edu/heegerlab/wiki/doku.php?id=mrtools:tutorialsglm_v2)
+
+There is also quite detailed documentation on the code http://gru.stanford.edu/mrTools (mirrored: https://www.cns.nyu.edu/heegerlab/wiki/doku.php?id=mrtools:top)
 
 ## Downloads / installs
+
+### Dependencies
 
 I (@schluppeck) made the videos and materials running with
 - ``Matlab R2016a`` (some known issues with later versions, e.g. `R2019a`, which are on radar)
@@ -40,6 +43,15 @@ I (@schluppeck) made the videos and materials running with
 
 - https://github.com/justingardner/mrTools (at commit: `b4330ea2` - Sat, 1 Feb 2020)
 - https://github.com/justingardner/mgl (at commit: * `be40b58` - Tue, 9 Jun 2020)
+
+### Code snippets for this tutorial
+
+You can grab the markdown documents and data from which this webpage + tutorial is made by cloning the followowing repo:
+
+```bash
+cd ~/matlab/ # or where you want to download to
+git clone https://github.com/nottingham-neuroimaging/intro-to-mrtools.git
+```
 
 ## Any problems?
 
