@@ -1,6 +1,6 @@
 # Transforms, more on alignments
 
-{% include lib/mathjax.html %}
+{% include mathjax.html %}
 
 ## Background
 
