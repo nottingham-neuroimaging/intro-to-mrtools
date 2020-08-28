@@ -73,6 +73,7 @@ There is a `youtube` playlist for the videos in this series:
 | 5    | [interacting with the dataset (interrogators)](05-interacting-with-data.md)      |
 | 6    | [first steps with scripting](06-first-scripting.md)                              |
 | 7    | [alignments / `mrAlign`  - moving between spaces](07-alignments.md)              |
+| 8    | [more alignment / transforms / moving between spaces](08-transforms.md)          |
 |      | ...                                                                              |
 |      | making custom plots (interrogater example)                                       |
 |      | finding functions / documentation  (`mrSearchHelp`, webpages, general best ways) |
