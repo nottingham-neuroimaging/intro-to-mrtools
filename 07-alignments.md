@@ -28,7 +28,7 @@ mrAlign()
 
 - check that everything worked
 
-- save and **export to mrLoadRet-4.5** to update nifti image and mrLoadRet data structures
+- save and **export to mrLoadRet-4.5** to update nifti image and mrLoadRet data structures (this step is important to make sure that the data structures in mrLoadRet folder are updated, not just the `qform` and `sform` fields in the nifti file headers)
 
 - in `mrLoadRet`, load in the anatomy file and use to get better visualisations
 

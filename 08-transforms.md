@@ -8,7 +8,33 @@ Below, I will try to break down the linear algebra a bit more with a worked exam
 
 ## Coordinate frames
 
+In `mrTools` (et al), the `qform` matrix specifies how to move from the coordinate frame of the images (in `voxels`) in the image into the space of the scanner (in `mm`).
 
+### Example from the anatomy file
+
+To get the `qform` matrix from the file you can use the `mrTools` functions:
+
+```matlab
+hdr = mlrImageReadNiftiHeader('../surfRelax/55555_mprage_pp.hdr')
+hdr.qform44
+```
+
+gives you:
+
+```
+>> hdr.qform44
+
+ans =
+
+    1.0000   -0.0000   -0.0000  -92.3241
+   -0.0000    1.0000   -0.0000 -411.1006
+    0.0000    0.0000    1.0000  107.8069
+         0         0         0    1.0000
+```
+
+```bash
+fslorient -getsform surfRelax/55555_mprage_pp
+```
 
 
 
