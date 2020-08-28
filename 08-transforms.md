@@ -1,5 +1,7 @@
 # Transforms, more on alignments
 
+{% include lib/mathjax.html %}
+
 ## Background
 
 :books: Before reading on here, I strongly suggest you read the [coordinate transforms tutorial](http://gru.stanford.edu/doku.php/mrtools/coordinatetransforms) on Justin Gardner's webpage. This explains in excellent detail how coordinate transforms work and how they are handled in `mrTools`.
@@ -32,11 +34,53 @@ ans =
          0         0         0    1.0000
 ```
 
+$$
+M = \left( \begin{array}{ccc}
+x_{11} & x_{12} & \ldots \\
+x_{21} & x_{22} & \ldots \\
+\vdots & \vdots & \ldots \\
+\end{array} \right)
+$$
+
+
+What do these numbers mean? Consider a coordinate in your image `xyz=[120; 90; 30]`... how do we know what the dimensions `x`, `y`, and `z` actually refer to?
+
+The `fsl` command line tools have a very helpful addition in their implementation of `fslhd` which shows you the mapping of axes in the coordinate system:
+
 ```bash
-fslorient -getsform surfRelax/55555_mprage_pp
+fslhd surfRelax/55555_mprage_pp
 ```
 
+![using fslhd ](images/header-details.png)
 
+
+## Running FSL in docker container
+
+### `fslorient` to get orientation information
+
+The unix command line version of getting a `qform` using `fslorient` would be:
+
+```bash
+fslorient -getsform surfRelax/55555_mprage_pp
+# or niceley formatted 
+fslorient -getsform surfRelax/55555_mprage_pp | xargs -n 4
+```
+
+If you are tied to a Windows machine, then you might want to run `fsl` in a docker container to make your life a bit easier. I have put together a [series of videos](https://www.youtube.com/playlist?list=PLCZfmSQp7dzKdvEf5TP4erdlDZPkqFl20)
+
+```bash
+# in Windows Terminal
+cd demo # or where you keep the data for this tutorial
+docker run --rm -it \
+  --name fsl_dev \
+  --mount type=bind,source="$(pwd)"/testdata,target=/home/data \
+  docker.pkg.github.com/schluppeck/dockerize-analysis/nipype_test:1.0 \
+  bash
+```
+
+Then you can run `fsl` commands by looking in the `/home/data` folder:
+
+![using fslhd from container image](images/header-details-container.png)
 
 ## References
 
