@@ -2,6 +2,8 @@
 
 This site provides some (self-paced) teaching material to get up to speed with `mrTools`, a set of Matlab tools for analyzing MRI data (https://github.com/justingardner/mrTools).
 
+:memo: On some pages, there is a bit of maths / linear algebra, which shows up only when you look at the [rendered version intro-to-mrtools](https://nottingham-neuroimaging.github.io/intro-to-mrtools). You can have a look at the source materials and any code on [the github repo page](https://github.com/nottingham-neuroimaging/intro-to-mrtools).
+
 There is a worked walk-through of an analysis of anatomical / fMRI data with a view to programming your own analysis and scripting reproducible pipelines. Along the way, we try to provide some additional info about `mrTools` internals, some programming conventions, and ideas for how you may adapt the tools for your use case.
 
 <center>
